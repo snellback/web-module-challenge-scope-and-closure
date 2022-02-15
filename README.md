@@ -61,6 +61,8 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+A closure is when a function reaches out in the scope either to a parent function or the global scope to access data from a variable.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -82,9 +84,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+Thr closure is used when the anonymous function reaches out to the argument of the personalDice function for the name.
 
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+The name will always be 'Dan' but the number rolled will be different each time.
+
+c. What is the lexical scope of `newRoll`? 
+The lexical scope of 'newRoll' is function scope and block scope.
 
 ### Task 3 - Stretch Goals
 
